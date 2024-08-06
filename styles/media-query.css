@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+    body {
+        height: 96vh;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .header {
+        max-width: 500px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 37px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .paragraph {
+        margin-bottom: 50px;
+    }
+
+    .container {
+        max-width: 1100px;
+        column-count: 3;
+        column-fill: balance;
+        column-gap: 2px;
+    }
+
+    section {
+        height: 215px;
+        max-width: 335px;
+        margin-bottom: 10px;
+    }
+
+    .supervisor {
+        column-span: 1;
+        break-after: column;
+        margin-top: 140px;
+    }
+
+    .team {
+        column-span: 2;
+        margin-bottom: 25px;
+    }
+
+    .karma {
+        column-span: 2;
+        break-after: column;
+    }
+
+    .calculator {
+        column-span: 1;
+        margin-top: 140px;
+    }
+
+    .description {
+        width: 275px;
+    }
+}
